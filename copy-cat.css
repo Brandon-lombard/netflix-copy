@@ -1,0 +1,262 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 990px) {
+    body {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+/* Common css */
+
+
+h1 {
+    font-size: 3.1rem;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Sections */
+
+.contentWidth {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.containerCommon {
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+}
+
+/* header */
+
+.wrapper {
+    padding-top: 20px;
+}
+.sectionBreak {
+
+    background: url(copy-catImages/backgroundHeader.jpg), linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom: 8px solid #222;
+}
+
+/* logo */
+
+.logo {
+    height: auto; 
+    width: 250px;
+}
+
+@media only screen and (max-width: 700px) {
+   .logo {
+    margin-top: 35px;  
+   } 
+}
+
+
+/* Sign in button */
+
+.signInbtn { 
+    background-color: #e50914;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    font-size: 1rem;
+    float: right;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+
+}
+
+/* Header Text */
+
+.textRow {
+    margin: auto;
+    width: 100%;
+    max-width: 950px;
+    text-align: center;
+    padding: 75px 0;
+    color: rgb(255, 255, 255);
+}
+
+.headerH1 {
+    margin: 0 75px;
+}
+
+.headerH2 {
+    margin: 16px 75px;
+
+}
+
+.headerH3 {
+    padding: 0 48px 20px;
+}
+
+/* Header text end */
+
+/* Sign Up Form */
+
+.signUpForm {
+    display: inline-block;
+    width: 60%; 
+    margin: 0; 
+    padding: 5px 0;
+}
+
+.signUpButton {
+    padding: 5px 10px;
+    background-color: #e50914;
+    display: inline-block;
+    border: 1px solid #e50914;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Section 2 */
+
+.tvImage {
+    text-align: center;
+}
+
+.DlCard {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 18rem; 
+    margin: auto;
+}
+
+/* Card body */
+
+.card-body {
+
+    border: 2px solid #222; 
+    border-radius: 20px;
+}
+/* Card Phone Download button */
+
+.CardP {
+    padding-top: 7px;
+}
+
+/* Section 2 end */
+
+/* Section 3 */
+
+.watchEverywhereText {
+    width: 52%;
+}
+
+@media only screen and (max-width: 991px) {
+    .watchEverywhereText { 
+     margin: auto;
+    } 
+ }
+
+
+/* Section 3 end */
+
+/* Section 4 */
+
+
+.kidsImage {
+    margin: auto;
+    height: 300px;
+}
+
+.kidsText {
+    margin: 3rem 0 0 0;
+}
+
+
+/* Section 4 end */
+
+
+/* Section 5 */
+
+.FAQSection {
+    text-align: left;
+    margin: 2em auto;
+    width: 50%;
+}
+
+/* H1 Faq */
+
+.FAQH1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* css taken from W3Schools */
+
+
+.collapsible {
+    background-color: #303030;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-top: 5px;
+    font-size: 26px;
+  }
+  
+  
+  .active, .collapsible:hover {
+    background-color: #303030;
+  }
+  
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #303030;
+    margin-top: 0.5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  }
+
+  /* Section 5 end */
+
+  /* footer */
+
+  .FooterContainer {
+      max-width: 1100px;
+      margin: 10px auto;
+      color: #757575;
+  }
+
+  .FooterContainer ul {
+      list-style: none;
+      font-size: 13px;
+  }
+
+  .FooterContainer ul a {
+      color: #757575;
+      text-decoration: none;
+  }
+
+  .FooterContainer ul a:hover {
+      text-decoration: underline;
+  }
+
+  footer span:hover {
+      text-decoration: underline;
+  }
+
+  /* Footer end */
